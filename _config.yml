@@ -77,4 +77,4 @@ jekyll-mentions:
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh]
 
 # don't overwrite these files/folders in build location
-keep_files: [downloads, heartbleed]
+keep_files: [downloads, heartbleed, .htaccess]
