@@ -1,36 +1,37 @@
 # main text of home
-name: John Doe
-bio: 'A Man who travels the world eating noodles'
+name: Jonas Höchst
+bio: 'Computer scientist - Scout - Musician'
 
 # if it's an external image, update below for true
 external-image: false
-picture: 'assets/images/profile.jpg'
+picture: 'assets/images/jonas2.jpg'
 
-url: http://sergiokopplin.github.io/indigo
+# url: http://sergiokopplin.github.io/indigo
 # your url: http://USERNAME.github.io
+# url: http://localhost:4000
 
 permalink: /:title/
 
 markdown: kramdown
 highlighter: rouge
 
-analytics-google: 'UA-MYANALYTICS'
+# analytics-google: 'UA-MYANALYTICS'
 
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+# disqus: mydisqus
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: thrawnhex
+twitter: jonashoechst
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-medium: medium
-email: myemail@gmail.com
+# linkedin: mylinkedin
+youtube: jonashoechst
+# spotify: 1181157452
+github: jonashoechst
+# medium: medium
+email: hello@jonashoechst.de
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -42,11 +43,11 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+# projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+# blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
