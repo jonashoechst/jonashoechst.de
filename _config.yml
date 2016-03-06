@@ -8,7 +8,7 @@ picture: 'assets/images/jonas2.jpg'
 
 # url: http://sergiokopplin.github.io/indigo
 # your url: http://USERNAME.github.io
-# url: http://localhost:4000
+url: http://jonashoechst.de
 
 permalink: /:title/
 
@@ -75,3 +75,6 @@ jekyll-mentions:
     base_url: https://github.com
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh]
+
+# don't overwrite these files/folders in build location
+keep_files: [downloads, heartbleed]
