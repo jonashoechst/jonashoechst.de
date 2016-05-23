@@ -6,7 +6,7 @@ bio: 'Computer scientist - Scout - Musician'
 external-image: false
 picture: 'assets/images/jonas2.jpg'
 
-# url: http://sergiokopplin.github.io/indigo
+url: http://koppl.in/indigo
 # your url: http://USERNAME.github.io
 url: http://jonashoechst.de
 
@@ -15,7 +15,12 @@ permalink: /:title/
 markdown: kramdown
 highlighter: rouge
 
+# To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
+
+# To enable piwik tracking, supply your url & site ID below
+# analytics-piwik-url: 'piwik.my-host.com'
+# analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
 # disqus: mydisqus

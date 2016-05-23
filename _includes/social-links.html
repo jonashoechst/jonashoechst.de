@@ -12,7 +12,7 @@
     {% endif %}
 
     {% if site.google %}
-        <a class="link" data-title="plus.google.com/{{ site.google }}" href="http://plus.google.com/{{ site.google }}" target="_blank">
+        <a class="link" data-title="plus.google.com/+{{ site.google }}" href="http://plus.google.com/+{{ site.google }}" target="_blank">
             <svg class="icon icon-google"><use xlink:href="#icon-google"></use></svg>
         </a>
     {% endif %}
@@ -30,7 +30,7 @@
     {% endif %}
 
     {% if site.linkedin %}
-        <a class="link" data-title="linkedin.com/{{ site.linkedin }}" href="http://linkedin.com/{{ site.linkedin }}" target="_blank">
+        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
             <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
         </a>
     {% endif %}
@@ -42,7 +42,7 @@
     {% endif %}
 
     {% if site.spotify %}
-        <a class="link" data-title="spotify.com/{{ site.spotify }}" href="https://spotify.com/{{ site.spotify }}" target="_blank">
+        <a class="link" data-title="open.spotify.com/user/{{ site.spotify }}" href="https://open.spotify.com/user/{{ site.spotify }}" target="_blank">
             <svg class="icon icon-spotify"><use xlink:href="#icon-spotify"></use></svg>
         </a>
     {% endif %}
@@ -62,6 +62,12 @@
     {% if site.researchgate %}
         <a class="link" data-title="researchgate.net/profile/{{ site.researchgate }}" href="https://www.researchgate.net/profile/{{ site.researchgate }}" target="_blank">
             <svg class="icon icon-researchgate"><use xlink:href="#icon-researchgate"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.vimeo %}
+        <a class="link" data-title="vimeo.com/{{ site.vimeo }}" href="https://vimeo.com/{{ site.vimeo }}" target="_blank">
+            <svg class="icon icon-vimeo"><use xlink:href="#icon-vimeo"></use></svg>
         </a>
     {% endif %}
 
