@@ -32,7 +32,7 @@ I am a computer scientist by passion, looking forward to finish my masters degre
 
 I am a boy scout since I was **eight** years old. Scouting is an *elementally part of my personality* and helped me in various situations. At the age of fifteen our local group almost collapsed. Other scouts helped, I became a group leader with sixteen and we managed to rebuilt it almost from scratch. 
 
-[![Sign of Verband Christlicher Pfadfinderinnen und Pfadfinder](https://upload.wikimedia.org/wikipedia/commons/2/24/VCP-Lilie.svg)](https://commons.wikimedia.org/wiki/File:VCP-Lilie.svg)
+[![Sign of Verband Christlicher Pfadfinderinnen und Pfadfinder](https://upload.wikimedia.org/wikipedia/commons/8/87/Verband_Christlicher_Pfadfinderinnen_und_Pfadfinder_%28VCP%29_Logo_%28Lilie%29.svg)](https://upload.wikimedia.org/wikipedia/commons/8/87/Verband_Christlicher_Pfadfinderinnen_und_Pfadfinder_%28VCP%29_Logo_%28Lilie%29.svg)
 
 At nineteen I became ***Stammesführer***, who is in charge of organizing all parts of the local group. After that I became ***Regionssprecher*** who connects those and moderates processes between the local groups. Both jobs not only were fulfilling for my personal advancement but taught me a lot about managing things.
 
