@@ -98,3 +98,10 @@ gems:
 
 jekyll-mentions:
     base_url: https://github.com
+    
+exclude: 
+  - Gemfile
+  - Rakefile
+  - travis.sh
+  - FAQ.md
+  - README.md
