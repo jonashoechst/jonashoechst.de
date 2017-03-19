@@ -8,7 +8,7 @@ layout: page
 
 My name is Jonas Höchst, born in the year of 1992 I am either enjoying the mercy or suffering the curse of a late birth. For my seventh birthday my uncle made a *electronics experimental box*. At the age of twelve my first line of code looked something like this:
 
-```c
+``` c
 #include <stdio.h>
 int main() {
 	printf("Hallo Welt!\n");
