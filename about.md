@@ -34,9 +34,9 @@ I am a computer scientist by passion, and currently working in the [SFB 1053 - M
 
 I am a boy scout since I was **eight** years old. Scouting is an *elementally part of my personality* and helped me in various situations. At the age of fifteen our local group almost collapsed. Other scouts helped, I became a group leader with sixteen and we managed to rebuilt it almost from scratch. 
 
-[![Sign of Verband Christlicher Pfadfinderinnen und Pfadfinder](https://upload.wikimedia.org/wikipedia/commons/8/87/Verband_Christlicher_Pfadfinderinnen_und_Pfadfinder_%28VCP%29_Logo_%28Lilie%29.svg)](https://upload.wikimedia.org/wikipedia/commons/8/87/Verband_Christlicher_Pfadfinderinnen_und_Pfadfinder_%28VCP%29_Logo_%28Lilie%29.svg)
+[![Sign of Verband Christlicher Pfadfinderinnen und Pfadfinder](https://upload.wikimedia.org/wikipedia/commons/8/87/Verband_Christlicher_Pfadfinderinnen_und_Pfadfinder_%28VCP%29_Logo_%28Lilie%29.svg)](https://commons.wikimedia.org/wiki/File:Verband_Christlicher_Pfadfinderinnen_und_Pfadfinder_(VCP)_Logo_(Lilie).svg)
 
-At nineteen I became ***Stammesführer***, who is in charge of organizing all parts of the local group. After that I became ***Regionssprecher*** who connects those and moderates processes between the local groups. Both jobs not only were fulfilling for my personal advancement but taught me a lot about managing things. Currently I am starting a [new scouting group](https://vcp-mr.de) in the town of Marburg.
+At nineteen I became ***Stammesführer***, who is in charge of organizing all parts of the local group. After that I became ***Regionssprecher*** who connects those and moderates processes between the local groups. Both jobs not only were fulfilling for my personal advancement but taught me a lot about managing things. Currently I am into different projects in my scouting organization, e.g. producing Videos for our Youtube Channel [Aufnahme & Versprecher](https://www.youtube.com/channel/UCcffpRuB1hnpn7uiJ6GnDGA) or working on our new songbook called [Pfadiralala<sub>plus</sub>](https://github.com/vcp-kurhessen/Pfadiralala-IV).
 
-Impressions on scouting can be found at the website of my local group ([VCP Lumdatal](http://www.vcp-lumdatal.de)) or at the website of [Region Kurhessen](https://vcp-kurhessen.info). 
+Impressions on scouting can be found at the website of [Region Kurhessen](https://vcp-kurhessen.info). 
 
