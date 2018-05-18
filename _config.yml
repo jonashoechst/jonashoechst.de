@@ -34,7 +34,7 @@ permalink: /:title/
   # categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: thrawnhex
+facebook: jonashoechst
 twitter: jonashoechst
 # google: mygoogle
 instagram: jonashoechst
@@ -43,8 +43,8 @@ instagram: jonashoechst
 youtube: jonashoechst
 spotify: 1181157452
 github: jonashoechst
-# lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
+lastfm: jonashoechst
+stackoverflow: 9788040/jonas
 # quora: userquora
 # reddit: username
 # medium: medium
