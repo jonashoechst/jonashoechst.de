@@ -4,12 +4,12 @@ layout: page
 ---
 
 # Impressum
-```
-Jonas Höchst
-Sudetenlandstraße 1
-35466 Rabenau
-hello@jonashoechst.de
-```
+
+Jonas Höchst  
+Sudetenlandstraße 1  
+35466 Rabenau  
+
+[hello@jonashoechst.de](mailto:hello@jonashoechst.de)
  
 
 ## Disclaimer - rechtliche Hinweise
