@@ -9,8 +9,8 @@
     
 <a href="javascript:toggle_visibility('{{key}}-bibtex')">BibTeX</a>
 
-{% if link %}
-&bull; <a href="{{link}}">Download</a>
+{% if entry.pdf %}
+&bull; <a href="{{entry.pdf}}">PDF</a>
 {% endif %}
     
 {% if entry.doi %}

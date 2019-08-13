@@ -1,4 +1,4 @@
-@INPROCEEDINGS{Penning2019DTN7,
+@INPROCEEDINGS{penning2019dtn,
     AUTHOR={Alvar Penning and Lars Baumgärtner and Jonas Höchst and Artur Sterz and Mira Mezini and Bernd Freisleben},
     TITLE="DTN7: An Open-Source Disruption-tolerant Networking Implementation of Bundle Protocol 7",
     BOOKTITLE="Ad-hoc, Mobile, and Wireless Networks - 18th International Conference on Ad Hoc Networks and Wireless, ADHOC-NOW 2019",
@@ -6,10 +6,11 @@
     DAYS=01,
     MONTH=oct,
     YEAR=2019,
-    ABSTRACT="In disruption-tolerant networking (DTN), data is transmitted in a store-carry-forward fashion from network node to network node. In this paper, we present an open source DTN implementation, called DTN7, of the recently released Bundle Protocol Version 7 (draft version 13). DTN7 is written in Go and provides features like memory safety and concurrent execution. With its modular design and interchangeable components, DTN7 facilitates DTN research and application development. Furthermore, we present results of a comparative experimental evaluation of DTN7 and other DTN systems including Serval, IBR-DTN, and Forban. Our results indicate that DTN7 is a flexible and efficient open-source multi-platform implementation of the most recent Bundle Protocol Version 7."
+    ABSTRACT="In disruption-tolerant networking (DTN), data is transmitted in a store-carry-forward fashion from network node to network node. In this paper, we present an open source DTN implementation, called DTN7, of the recently released Bundle Protocol Version 7 (draft version 13). DTN7 is written in Go and provides features like memory safety and concurrent execution. With its modular design and interchangeable components, DTN7 facilitates DTN research and application development. Furthermore, we present results of a comparative experimental evaluation of DTN7 and other DTN systems including Serval, IBR-DTN, and Forban. Our results indicate that DTN7 is a flexible and efficient open-source multi-platform implementation of the most recent Bundle Protocol Version 7.",
+    pdf="../assets/papers/penning2019dtn.pdf"
 }
 
-@INPROCEEDINGS{Hoch1910:Learning,
+@INPROCEEDINGS{hoechst2019learning,
     AUTHOR={Jonas {H{\"o}chst} and Artur Sterz and Alexander {Fr{\"o}mmgen} and Denny
     Stohr and Ralf Steinmetz and Bernd Freisleben},
     TITLE="Learning {Wi-Fi} Connection Loss Predictions for Seamless Vertical
@@ -19,10 +20,11 @@
     DAYS=13,
     MONTH=oct,
     YEAR=2019,
-    ABSTRACT="We present a novel data-driven approach to perform smooth Wi-Fi/cellular handovers on smartphones. Our approach relies on data provided by multiple smartphone sensors (e.g., Wi-Fi RSSI, acceleration, compass, step counter, air pressure) to predict Wi-Fi connection loss and uses Multipath TCP to dynamically switch between different connectivity modes. We train a random forest classifier and an artificial neural network on real-world sensor data collected by five smartphone users over a period of three months. The trained models are executed on smartphones to reliably predict Wi-Fi connection loss 15 seconds ahead of time, with a precision of up to 0.97 and a recall of up to 0.98. Furthermore, we present results for four DASH video streaming experiments that run on a Nexus 5 smartphone using available Wi-Fi/cellular networks. The neural network predictions for Wi-Fi connection loss are used to establish MPTCP subflows on the cellular link. The experiments show that our approach provides seamless wireless connectivity, improves quality of experience of DASH video streaming, and requires less cellular data compared to handover approaches without Wi-Fi connection loss predictions."
+    ABSTRACT="We present a novel data-driven approach to perform smooth Wi-Fi/cellular handovers on smartphones. Our approach relies on data provided by multiple smartphone sensors (e.g., Wi-Fi RSSI, acceleration, compass, step counter, air pressure) to predict Wi-Fi connection loss and uses Multipath TCP to dynamically switch between different connectivity modes. We train a random forest classifier and an artificial neural network on real-world sensor data collected by five smartphone users over a period of three months. The trained models are executed on smartphones to reliably predict Wi-Fi connection loss 15 seconds ahead of time, with a precision of up to 0.97 and a recall of up to 0.98. Furthermore, we present results for four DASH video streaming experiments that run on a Nexus 5 smartphone using available Wi-Fi/cellular networks. The neural network predictions for Wi-Fi connection loss are used to establish MPTCP subflows on the cellular link. The experiments show that our approach provides seamless wireless connectivity, improves quality of experience of DASH video streaming, and requires less cellular data compared to handover approaches without Wi-Fi connection loss predictions.",
+    pdf="../assets/papers/hoechst2019learning.pdf",
 }
 
-@INPROCEEDINGS{Ster1910:OPPLOAD,
+@INPROCEEDINGS{sterz2019oppload,
     AUTHOR={Artur Sterz and Lars {Baumg{\"a}rtner} and Jonas {H{\"o}chst} and Patrick Lampe and Bernd Freisleben},
     TITLE="{OPPLOAD:} Offloading Computational Workflows in Opportunistic Networks",
     BOOKTITLE="2019 IEEE 44th Conference on Local Computer Networks (LCN) (LCN 2019)",
@@ -30,11 +32,12 @@
     DAYS=13,
     MONTH=oct,
     YEAR=2019,
-    ABSTRACT="Computation offloading is often used in mobile cloud computing, edge computing, and/or fog computing to cope with resource limitations of mobile devices in terms of computational power, storage, and energy. Computation offloading is particularly challenging in situations where network connectivity is periodic, intermittent, or error-prone. In this paper, we present OPPLOAD, a novel framework designed for offloading computational workflows in opportunistic networks that provide support for communication in such situations. The individual tasks forming a workflow can be assigned to particular remote execution platforms, called workers, either preselected ahead of time or decided just in time where a matching worker will automatically be assigned for the next task in the workflow. Workers announce their capabilities, i.e., tasks are only assigned to capable workers. Furthermore, tasks of a workflow can be executed on multiple workers that are automatically selected to balance the overall load. OPPLOAD also offers the ability to handle several types of error and exceptions appropriately. Our Python implementation of OPPLOAD, which uses the Serval Mesh to handle networking and routing, is publicly available as open source software. The results of our experimental evaluation demonstrate the feasibility of our approach."
+    ABSTRACT="Computation offloading is often used in mobile cloud computing, edge computing, and/or fog computing to cope with resource limitations of mobile devices in terms of computational power, storage, and energy. Computation offloading is particularly challenging in situations where network connectivity is periodic, intermittent, or error-prone. In this paper, we present OPPLOAD, a novel framework designed for offloading computational workflows in opportunistic networks that provide support for communication in such situations. The individual tasks forming a workflow can be assigned to particular remote execution platforms, called workers, either preselected ahead of time or decided just in time where a matching worker will automatically be assigned for the next task in the workflow. Workers announce their capabilities, i.e., tasks are only assigned to capable workers. Furthermore, tasks of a workflow can be executed on multiple workers that are automatically selected to balance the overall load. OPPLOAD also offers the ability to handle several types of error and exceptions appropriately. Our Python implementation of OPPLOAD, which uses the Serval Mesh to handle networking and routing, is publicly available as open source software. The results of our experimental evaluation demonstrate the feasibility of our approach.",
+    pdf="../assets/papers/sterz2019oppload.pdf",
 }
 
 
-@INPROCEEDINGS{Baum1910:Smart,
+@INPROCEEDINGS{baumgaertner2019smart,
     AUTHOR={Lars {Baumg{\"a}rtner} and Patrick Lampe and Jonas {H{\"o}chst} and Ragnar Mogk and Artur Sterz and Pascal Weisenburger and Mira Mezini and Bernd Freisleben},
     TITLE="Smart Street Lights and Mobile Citizen Apps for Resilient Communication in a Digital City",
     BOOKTITLE="2019 IEEE Global Humanitarian Technology Conference (GHTC) (GHTC 2019)",
@@ -42,10 +45,11 @@
     DAYS=17,
     MONTH=oct,
     YEAR=2019,
-    ABSTRACT="Currently, nearly four billion people live in urban areas. Since this trend is increasing, natural disasters or terrorist attacks in such areas affect an increasing number of people. While information and communication technology is crucial for the operation of urban infrastructures and the well-being of its inhabitants, current technology is quite vulnerable to disruptions of various kinds. In future smart cities, a more resilient urban infrastructure is imperative to handle the increasing number of hazardous situations. We present a novel resilient communication approach based on smart street lights as part of the public infrastructure. It supports people in their everyday life and adapts its functionality to the challenges of emergency situations. Our approach relies on various environmental sensors and in-situ processing for automatic situation assessment, and a range of communication mechanisms (e.g., public WiFi hotspot functionality and mesh networking) for maintaining a communication network. Furthermore, resilience is not only achieved based on infrastructure deployed by a digital city's municipality, but also based on integrating citizens through software that runs on their mobile devices (e.g., smartphones and tablets). Web-based zero-installation and platform-agnostic apps can switch to device-to-device communication to continue benefiting people even during a disaster situation. Our approach, featuring a covert channel for professional responders and the zero-installation app, is evaluated through a prototype implementation based on a commercially available street light."
+    ABSTRACT="Currently, nearly four billion people live in urban areas. Since this trend is increasing, natural disasters or terrorist attacks in such areas affect an increasing number of people. While information and communication technology is crucial for the operation of urban infrastructures and the well-being of its inhabitants, current technology is quite vulnerable to disruptions of various kinds. In future smart cities, a more resilient urban infrastructure is imperative to handle the increasing number of hazardous situations. We present a novel resilient communication approach based on smart street lights as part of the public infrastructure. It supports people in their everyday life and adapts its functionality to the challenges of emergency situations. Our approach relies on various environmental sensors and in-situ processing for automatic situation assessment, and a range of communication mechanisms (e.g., public WiFi hotspot functionality and mesh networking) for maintaining a communication network. Furthermore, resilience is not only achieved based on infrastructure deployed by a digital city's municipality, but also based on integrating citizens through software that runs on their mobile devices (e.g., smartphones and tablets). Web-based zero-installation and platform-agnostic apps can switch to device-to-device communication to continue benefiting people even during a disaster situation. Our approach, featuring a covert channel for professional responders and the zero-installation app, is evaluated through a prototype implementation based on a commercially available street light.",
+    pdf="../assets/papers/baumgaertner2019smart.pdf",
 }
 
-@inproceedings{Graubner2018Opportunistic, 
+@inproceedings{graubner2018opportunistic, 
     title={Opportunistic Named Functions in Disruption-tolerant Emergency Networks}, 
     author={Pablo Graubner and Patrick Lampe and Jonas H{\"o}chst and Lars Baumg{\"a}rtner and Mira Mezini and Bernd Freisleben}, 
     publisher={ACM}, 
@@ -56,10 +60,10 @@
     doi = {10.1145/3203217.3203234},
     booktitle={ACM International Conference on Computing Frontiers 2018 (ACM CF 2018)},
     abstract="Information-centric disruption-tolerant networks (ICN-DTNs) are useful to re-establish mobile communication in disaster scenarios when telecommunication infrastructures are partially or completely unavailable. In this paper, we present opportunistic named functions, a novel approach to operate ICN-DTNs during emergencies. Affected people and first responders use their mobile devices to specify their interests in particular content and/or application-specific functions that are then executed in the network on the fly, either partially or totally, in an opportunistic manner. Opportunis-tic named functions rely on user-defined interests and on locally optimal decisions based on battery lifetimes and device capabilities. In the presented emergency scenario, they are used to preprocess, analyze, integrate and transfer information extracted from images produced by smartphone cameras, with the aim of supporting the search for missing persons and the assessment of critical conditions in a disaster area. Experimental results show that opportunistic named functions reduce network congestion and improve battery lifetime in a network of battery-powered sensors, mobile devices, and mobile routers, while delivering crucial information to carry out situation analysis in disasters.",
-    
+    pdf="../assets/papers/graubner2018opportunistic.pdf",
 }
 
-@inproceedings{Hoch1710:Unsupervised,
+@inproceedings{hoechst2017unsupervised,
     AUTHOR={Jonas {H{\"o}chst} and Lars {Baumg{\"a}rtner} and Matthias Hollick and Bernd Freisleben},
     TITLE={Unsupervised Traffic Flow Classification Using a Neural Autoencoder},
     BOOKTITLE={42nd Annual IEEE Conference on Local Computer Networks (LCN 2017)},
@@ -70,44 +74,48 @@
     URL = {https://ieeexplore.ieee.org/document/8109399/},
     DOI = {10.1109/LCN.2017.57},
     KEYWORDS={Autoencoder; Traffic flow classification; Unsupervised learning},
-    ABSTRACT="The delay and bandwidth requirements of today's mobile applications differ widely depending on the functionality provided and the data transferred, such as uploading user generated multimedia content, playing online games, or streaming live videos. To perform resource management, mobile wireless networks can particularly profit from classifying and predicting mobile application traffic. State-of-the-art traffic classification approaches have various disadvantages: port-based classification methods can be circumvented by choosing non-standard ports, protocol fingerprinting can be confused by the use of encryption, and current supervised learning methods for analyzing the statistical properties of network flows try to detect predefined classes, such as e-mail or FTP traffic, learned during training. In this paper, we present a novel approach to unsupervised traffic flow classification using statistical properties of flows and clustering based on a neural autoencoder. In contrast to previous work, the neural autoencoder is used to automatically cluster traffic flows, for example, into downloads, uploads, or voice calls, independent of the particular network protocols, such as FTP or HTTP(S), used for performing these tasks. A novel time interval based feature vector construction and a semi-automatic cluster labeling method facilitate traffic flow classification independent of known traffic classes or classification constraints. An experimental evaluation of the proposed approach on real data captured from about 25 mobile devices performing daily work over a period of 4 months is presented. The obtained results show that 7 different classes of mobile traffic flows are detected with an average precision of 80\% and an average recall of 75\%, indicating the feasibility of our approach."
+    ABSTRACT="The delay and bandwidth requirements of today's mobile applications differ widely depending on the functionality provided and the data transferred, such as uploading user generated multimedia content, playing online games, or streaming live videos. To perform resource management, mobile wireless networks can particularly profit from classifying and predicting mobile application traffic. State-of-the-art traffic classification approaches have various disadvantages: port-based classification methods can be circumvented by choosing non-standard ports, protocol fingerprinting can be confused by the use of encryption, and current supervised learning methods for analyzing the statistical properties of network flows try to detect predefined classes, such as e-mail or FTP traffic, learned during training. In this paper, we present a novel approach to unsupervised traffic flow classification using statistical properties of flows and clustering based on a neural autoencoder. In contrast to previous work, the neural autoencoder is used to automatically cluster traffic flows, for example, into downloads, uploads, or voice calls, independent of the particular network protocols, such as FTP or HTTP(S), used for performing these tasks. A novel time interval based feature vector construction and a semi-automatic cluster labeling method facilitate traffic flow classification independent of known traffic classes or classification constraints. An experimental evaluation of the proposed approach on real data captured from about 25 mobile devices performing daily work over a period of 4 months is presented. The obtained results show that 7 different classes of mobile traffic flows are detected with an average precision of 80\% and an average recall of 75\%, indicating the feasibility of our approach.",
+    pdf="../assets/papers/hoechst2017unsupervised.pdf",
 }
 
-@inproceedings{Baum1702speak,
-	AUTHOR = {Lars {Baumg{\"a}rtner} and Pablo Graubner and Jonas {H{\"o}chst} and Anja Klein and Bernd Freisleben},
-	TITLE = "Speak Less, Hear Enough: On Dynamic Announcement Intervals in Wireless On-demand Networks",
-	BOOKTITLE = "13th Conference on Wireless On-demand Network Systems and Services (WONS 2017)",
-	ADDRESS = "Jackson Hole, USA",
-	DAYS = 21,
-	MONTH = feb,
-	YEAR = 2017,
+@inproceedings{baumgaertner2017speak,
+    AUTHOR = {Lars {Baumg{\"a}rtner} and Pablo Graubner and Jonas {H{\"o}chst} and Anja Klein and Bernd Freisleben},
+    TITLE = "Speak Less, Hear Enough: On Dynamic Announcement Intervals in Wireless On-demand Networks",
+    BOOKTITLE = "13th Conference on Wireless On-demand Network Systems and Services (WONS 2017)",
+    ADDRESS = "Jackson Hole, USA",
+    DAYS = 21,
+    MONTH = feb,
+    YEAR = 2017,
     URL = {http://2017.wons-conference.org/Papers/1570315160.pdf},
     DOI = {10.1109/WONS.2017.7888768},
-	ABSTRACT = "Several protocols used in wireless networks rely on nodes announcing information to other nodes. This can be illustrated by service announcements sent in ZeroConf, routing announcements used in OLSR, and peer announcements in wireless peer-to-peer or delay-tolerant networking systems such as Forban and Serval. The main problem is that these protocols use fixed time intervals between subsequent broadcast announcements. Fixed intervals can either lead to high network load (if the announcement interval is too short) or delay the distribution of information between peers (if the announcement interval is too long). Repeatedly broadcasting announcements after fixed intervals also has a significant impact on the energy consumption of mobile devices operating in wireless networks. In this paper, we present several approaches to realize dynamic announcement intervals that facilitate fast reception from at least one other node while trying to keep the overall communication overhead as low as possible. Experimental results in terms of performance properties and energy consumption are presented to illustrate the benefits of dynamic announcement intervals in wireless on-demand networks."
+    ABSTRACT = "Several protocols used in wireless networks rely on nodes announcing information to other nodes. This can be illustrated by service announcements sent in ZeroConf, routing announcements used in OLSR, and peer announcements in wireless peer-to-peer or delay-tolerant networking systems such as Forban and Serval. The main problem is that these protocols use fixed time intervals between subsequent broadcast announcements. Fixed intervals can either lead to high network load (if the announcement interval is too short) or delay the distribution of information between peers (if the announcement interval is too long). Repeatedly broadcasting announcements after fixed intervals also has a significant impact on the energy consumption of mobile devices operating in wireless networks. In this paper, we present several approaches to realize dynamic announcement intervals that facilitate fast reception from at least one other node while trying to keep the overall communication overhead as low as possible. Experimental results in terms of performance properties and energy consumption are presented to illustrate the benefits of dynamic announcement intervals in wireless on-demand networks.",
+    pdf="../assets/papers/baumgaertner2017speak.pdf",
 }
 
 @inproceedings{baumgaertner2016experimental,
     ABSTRACT="Serval is an open-source, delay-tolerant wireless ad-hoc networking system
 designed to allow communications anywhere and anytime, despite the total loss of supporting telecommunications infrastructures provided by mobile phone operators. In emergency situations, Serval can be used to establish a disaster-response communications network spontaneously formed by mobile phones and/or battery powered wireless routers. In this paper, we present an in-depth experimental evaluation of Serval for various network setups and usage patterns, including simulated long term use. The focus of our evaluation is on the delay-tolerant aspects of Serval, providing insights into the scenarios where Serval can be deployed with satisfactory quality and performance characteristics. Furthermore, since mobile phones have a limited battery capacity, we take a closer look at the battery drain resulting from using Serval over different communication links, such as WiFi and Bluetooth. Our purpose in providing these analyses is to understand the current capability of Serval and identify any areas where further improvement is required, and to provide a summary of current readiness of Serval in advance of planned pilots in the Pacific region.",
-	ADDRESS = {Seattle, USA},
-	AUTHOR = {Lars {Baumg{\"a}rtner} and Paul Gardner-Stephen and Pablo Graubner and Jeremy Lakeman and Jonas {H{\"o}chst} and Patrick Lampe and Nils Schmidt and Stefan Schulz and Artur Sterz and Bernd Freisleben},
-	BOOKTITLE = {2016 IEEE Global Humanitarian Technology Conference (GHTC)},
-	DAYS = 13,
-	KEYWORDS = {delay-tolerant networking; mesh network},
-	MONTH = oct,
-	TITLE = {An Experimental Evaluation of Delay-Tolerant Networking with {Serval}},
-	YEAR = 2016,
+    ADDRESS = {Seattle, USA},
+    AUTHOR = {Lars {Baumg{\"a}rtner} and Paul Gardner-Stephen and Pablo Graubner and Jeremy Lakeman and Jonas {H{\"o}chst} and Patrick Lampe and Nils Schmidt and Stefan Schulz and Artur Sterz and Bernd Freisleben},
+    BOOKTITLE = {2016 IEEE Global Humanitarian Technology Conference (GHTC)},
+    DAYS = 13,
+    KEYWORDS = {delay-tolerant networking; mesh network},
+    MONTH = oct,
+    TITLE = {An Experimental Evaluation of Delay-Tolerant Networking with {Serval}},
+    YEAR = 2016,
     DOI = {10.1109/GHTC.2016.7857262},
+    pdf="../assets/papers/baumgaertner2016experimental.pdf",
 }
 
 @inproceedings{baumgaertner2015misuse,
-	AUTHOR = {Baumg{\"a}ertner, Lars and H{\"o}chst, Jonas and Leinweber, Matthias and Freisleben, Bernd},
-	BOOKTITLE = {Trustcom/BigDataSE/ISPA, 2015 IEEE},
-	ORGANIZATION = {IEEE},
-	PAGES = {287--294},
-	TITLE = {How to Misuse SMTP over TLS: A Study of the (In) Security of Email Server Communication},
-	VOLUME = {1},
-	YEAR = {2015},
+    AUTHOR = {Baumg{\"a}ertner, Lars and H{\"o}chst, Jonas and Leinweber, Matthias and Freisleben, Bernd},
+    BOOKTITLE = {Trustcom/BigDataSE/ISPA, 2015 IEEE},
+    ORGANIZATION = {IEEE},
+    PAGES = {287--294},
+    TITLE = {How to Misuse SMTP over TLS: A Study of the (In) Security of Email Server Communication},
+    VOLUME = {1},
+    YEAR = {2015},
     DOI = {10.1109/Trustcom.2015.386},
-    ABSTRACT = "Electronic mail is one of the oldest and widely used services in the Internet. In this paper, an empirical study of the security properties of email server communication within the German IP address space range is presented. Instead of investigating end-user security or end-to-end encryption, we focus on the connections between SMTP servers relying on transport layer security. We analyze the involved ciphers suites, the certificates used and certificate authorities, and the behavior of email providers when communicating with improperly secured email servers. Conclusions drawn from this analysis lead to several recommendations to mitigate the security issues currently present in the email system as it is deployed in the Internet."
+    ABSTRACT = "Electronic mail is one of the oldest and widely used services in the Internet. In this paper, an empirical study of the security properties of email server communication within the German IP address space range is presented. Instead of investigating end-user security or end-to-end encryption, we focus on the connections between SMTP servers relying on transport layer security. We analyze the involved ciphers suites, the certificates used and certificate authorities, and the behavior of email providers when communicating with improperly secured email servers. Conclusions drawn from this analysis lead to several recommendations to mitigate the security issues currently present in the email system as it is deployed in the Internet.",
+    pdf="../assets/papers/baumgaertner2015misuse.pdf",
 }
