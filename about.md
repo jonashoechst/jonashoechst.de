@@ -24,11 +24,11 @@ I did my Abitur at [Landgraf-Ludwigs-Gymnasium](http://www.llg-giessen.de) in Gi
 
 Even though it's only a stones throw away from my home town [Rabenau](http://www.rabenau.de) I moved into a shared flat in Marburg with seven others, an experience I wouldn't want to miss.
 
-The University courses deepened my understandings and once again widened my knowledge base. Especially the freely choosable subjects disclosed new fields like **IT Security** and **Distributed Systems** to me. Finally my bachelors thesis was a study of email transport security, which we later published at [IEEE TrustCom](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7345294): *How to Misuse SMTP over TLS: A Study of the (In)Security of Email Server Communication* - [available at ResearchGate](https://www.researchgate.net/publication/292552299_How_to_Misuse_SMTP_over_TLS_A_Study_of_the_InSecurity_of_Email_Server_Communication).
+The University courses deepened my understandings and once again widened my knowledge base. Especially the freely choosable subjects disclosed new fields like **IT Security** and **Distributed Systems** to me. Finally my bachelors thesis was a study of email transport security, which we later published at [IEEE TrustCom](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7345294): *How to Misuse SMTP over TLS: A Study of the (In)Security of Email Server Communication*.
 
 In the second epoch of studying I set a focus to computer networks and worked in the [LOEWE NICER Project](http://www.proloewe.de/en/nicer) further investigation **emergency** and **delay-tolerant communication**. In my master's thesis I worked on network traffic classification using machine learning approaches.
 
-I am a computer scientist by passion, and currently working in the [SFB 1053 - MAKI](http://www.maki.tu-darmstadt.de/sfb_maki/ueber_maki/index.de.jsp) at TU Darmstadt and University of Marburg, being involved into thrilling **research** projects!
+I am a computer scientist by passion, and currently working in the [SFB 1053 - MAKI](http://www.maki.tu-darmstadt.de/sfb_maki/ueber_maki/index.de.jsp) at TU Darmstadt and [Nature 4.0 - Sensing Biodiversity](https://www.uni-marburg.de/en/fb19/natur40) University of Marburg, being involved into thrilling **research** projects!
 
 ## Scouting for <s>boys</s> *me*
 
@@ -36,7 +36,4 @@ I am a boy scout since I was **eight** years old. Scouting is an *elementally pa
 
 [![Sign of Verband Christlicher Pfadfinderinnen und Pfadfinder](https://upload.wikimedia.org/wikipedia/commons/8/87/Verband_Christlicher_Pfadfinderinnen_und_Pfadfinder_%28VCP%29_Logo_%28Lilie%29.svg)](https://commons.wikimedia.org/wiki/File:Verband_Christlicher_Pfadfinderinnen_und_Pfadfinder_(VCP)_Logo_(Lilie).svg)
 
-At nineteen I became ***Stammesführer***, who is in charge of organizing all parts of the local group. After that I became ***Regionssprecher*** who connects those and moderates processes between the local groups. Both jobs not only were fulfilling for my personal advancement but taught me a lot about managing things. Currently I am into different projects in my scouting organization, e.g. producing Videos for our Youtube Channel [Aufnahme & Versprecher](https://www.youtube.com/channel/UCcffpRuB1hnpn7uiJ6GnDGA) or working on our new songbook called [Pfadiralala<sub>plus</sub>](https://github.com/vcp-kurhessen/Pfadiralala-IV).
-
-Impressions on scouting can be found at the website of [Region Kurhessen](https://vcp-kurhessen.info). 
-
+At nineteen I became ***Stammesführer***, who is in charge of organizing all parts of the local group. After that I became ***Regionssprecher*** who connects those and moderates processes between the local groups. Both jobs not only were fulfilling for my personal advancement but taught me a lot about managing things. Currently I am into different projects in my scouting organization, e.g., working on our new [Pfadiralala IV<sub>plus</sub>](https://github.com/vcp-kurhessen/Pfadiralala-IV) songbook and building up a [new local group in Kirchhain](https://vcp-kirchhain.de).
