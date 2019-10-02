@@ -112,7 +112,7 @@ exclude:
   
 # configuration from https://techblog.lankes.org/2015/04/06/From-Wordpress-to-Jekyll/
 scholar:
-  style: assets/bibliography/ieee-with-url.csl
+  style: assets/bibliography/ieee.csl
   locale: en
 
   # group_by: year
