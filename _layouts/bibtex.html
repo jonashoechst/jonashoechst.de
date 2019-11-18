@@ -14,11 +14,11 @@
 {% endif %}
 
 {% if entry.url %}
-&bull; <a href="{{entry.url}}">URL</a>
+&bull; <a href="{{entry.url}}" target="_new">URL</a>
 {% endif %}
     
 {% if entry.doi %}
-&bull; DOI: <a href="http://dx.doi.org/{{entry.doi}}">{{entry.doi}}</a>
+&bull; DOI: <a href="https://dx.doi.org/{{entry.doi}}">{{entry.doi}}</a>
 {% endif %}
     
 <div id="{{key}}-bibtex" class="collapse">
