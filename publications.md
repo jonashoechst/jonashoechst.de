@@ -25,9 +25,17 @@ function collapse_all() {
 	display: none;
 }
 .abstract {
+	font-family: serif;
+	font-size: normal;
+	color: black;
+	line-height: normal;
 	text-align: justify;
 	padding: 10pt;
 }
+pre {
+	color: black;
+}
+
 li {
 	padding: 3pt;
 }
