@@ -30,8 +30,8 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 # disqus:
-  # shortname: mydisqus # enter this from your disqus account
-  # categories: [blog, project] # only show disqus for posts that have these categories
+# shortname: mydisqus # enter this from your disqus account
+# categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 facebook: jonashoechst
@@ -53,11 +53,11 @@ email: hello@jonashoechst.de
 researchgate: Jonas_Hoechst
 
 authors:
-    jonashoechst:
-        name: Jonas Höchst
-        bio: Computer scientist - Scout - Musician
-        external-image: false
-        picture: assets/images/jonas3.jpg
+  jonashoechst:
+    name: Jonas Höchst
+    bio: Computer scientist - Scout - Musician
+    external-image: false
+    picture: assets/images/jonas3.jpg
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -101,15 +101,15 @@ gems:
   - jekyll/scholar
 
 jekyll-mentions:
-    base_url: https://github.com
-    
-exclude: 
+  base_url: https://github.com
+
+exclude:
   - Gemfile
   - Rakefile
   - travis.sh
   - FAQ.md
   - README.md
-  
+
 # configuration from https://techblog.lankes.org/2015/04/06/From-Wordpress-to-Jekyll/
 scholar:
   style: assets/bibliography/ieee.csl
@@ -118,15 +118,14 @@ scholar:
   # group_by: year
   # group_order: descending
   # bibliography_group_tag: h3
-  
+
   sort_by: year
   order: descending
   bibliography_list_tag: ul
 
   repository: pdf
   bibliography_template: bibtex
-  
+
   reference_tagname: div
 
   details_link_class: "hidden"
-
