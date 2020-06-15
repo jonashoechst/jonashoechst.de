@@ -1,7 +1,7 @@
 ---
 title: "Corona-Apps: Halbseidene Offenheit"
 layout: post
-date: 2020-06-12 09:47
+date: 2020-06-15 18:00
 image: /assets/images/corona-apps.jpg
 headerImage: false
 tag:
@@ -36,10 +36,11 @@ Mit der [DP-3T-Android-Bibliothek][dp3t-sdk-android] war es auf einfache Art und
 Die von Apple und Google festgelegten Restriktionen bei der Nutzung ihrer *Exposure Notification API* erschweren die Nachvollziehbarkeit von Corona-Apps. Somit hat das Schlagwort *Open Source* im Kontext von Corona-Apps nicht die intendierte Bedeutung. Auch die in Kürze erwartete deutsche *Corona-Warn-App* soll nach aktuellem Stand der Dinge unter einer *Open Source* Lizenz erscheinen, wird aber für Dritte aus genannten Gründen ebenfalls nur eingeschränkt nachvollziehbar sein. Um aber ein hohes Vertrauen in die Technologie zur Kontaktnachverfolgung zu schaffen, muss die Reproduzierbarkeit von Corona-Apps hinsichtlich des umfänglichen Kompilierens, Testens und Veränderns des gesamten Codes (App, *Exposure Notification API*, Backend-Server) ermöglicht werden. 
 
 
-*Dieser Beitrag wurde von Alvar Penning, Jonas Höchst und Prof. Dr. Bernd Freisleben bei der Gesellschaft für Informatik veröffentlicht.*
+*Dieser Beitrag wurde von Alvar Penning, Jonas Höchst und Prof. Dr. Bernd Freisleben verfasst und initial [bei der Gesellschaft für Informatik][article-gi] veröffentlicht.*
 
 *Bild: [Mika Baumeister (@mbaumi) via Unsplash](https://unsplash.com/photos/PfMXXv8XXgs)*
 
+[article-gi]:https://gi.de/themen/beitrag/corona-apps-halbseidene-offenheit
 [dp3t-sdk-android]:https://github.com/DP-3T/dp3t-sdk-android
 [swisscovid-press]:https://www.melani.admin.ch/melani/de/home/public-security-test/infos.html
 [watson-ch-swisscovid]:https://www.watson.ch/digital/schweiz/230112345-swisscovid-app-bund-betont-dass-testversion-nicht-fuer-alle-sei
