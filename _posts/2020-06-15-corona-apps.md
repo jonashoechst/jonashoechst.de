@@ -14,6 +14,8 @@ description: Digitale Kontaktnachverfolgung braucht Open Source
 **Corona-Apps zur Kontaktnachverfolgung werden von vielen als ein wichtiger Baustein zur Bewältigung der Corona-Krise betrachtet: eine technische Lösung für ein doch sehr menschliches Problem. Ihre Wirksamkeit hängt von ihrer Nutzung durch eine kritische Masse der Bevölkerung ab. Um das für ihre Nutzung notwendige Vertrauen zu schaffen, sind Informatiker\*innen gefragt, Corona-Apps auf Herz und Nieren prüfen. Doch wie überprüfbar sind die unter dem Schlagwort "Open Source" veröffentlichten Apps wirklich?**
 
 ![/assets/images/corona-apps.jpg](/assets/images/corona-apps.jpg)
+*Bild: [Mika Baumeister (@mbaumi) via Unsplash](https://unsplash.com/photos/PfMXXv8XXgs)*
+
 
 Die übliche Strategie zur Bekämpfung einer beginnenden Epidemie ist die Verfolgung von Kontakten verbunden mit der Eindämmung der Ansteckungen. Im Zuge der COVID-19 Pandemie soll nun zu einem fortgeschritteneren Zeitpunkt der Ausbreitung mithilfe einer Corona-App eine Kontaktnachverfolgung in der Breite der Bevölkerung umgesetzt werden. Die zentrale Idee ist, physische Kontakte von Personen mittels Smartphones zu protokollieren, sodass im Fall einer Infektion die aufgezeichneten Kontakte über eine potentielle Ansteckung informiert werden können.
 
@@ -37,8 +39,6 @@ Die von Apple und Google festgelegten Restriktionen bei der Nutzung ihrer *Expos
 
 
 *Dieser Beitrag wurde von Alvar Penning, Jonas Höchst und Prof. Dr. Bernd Freisleben verfasst und initial [bei der Gesellschaft für Informatik][article-gi] veröffentlicht.*
-
-*Bild: [Mika Baumeister (@mbaumi) via Unsplash](https://unsplash.com/photos/PfMXXv8XXgs)*
 
 [article-gi]:https://gi.de/themen/beitrag/corona-apps-halbseidene-offenheit
 [dp3t-sdk-android]:https://github.com/DP-3T/dp3t-sdk-android

@@ -1,3 +1,18 @@
+@INPROCEEDINGS{hoechst2020pimod,
+    AUTHOR={Jonas {Höchst} and Alvar Penning and Patrick Lampe and Bernd Freisleben},
+    TITLE={{PIMOD: A Tool for Configuring {Single-Board} Computer Operating System
+    Images}},
+    BOOKTITLE={{2020 IEEE Global Humanitarian Technology Conference (GHTC 2020)}},
+    ADDRESS="Seattle, USA",
+    DAYS=29,
+    MONTH=oct,
+    YEAR=2020,
+    KEYWORDS="Single-Board Computer; Operating System Image; System Provisioning",
+    ABSTRACT="Computer systems used in the field of humanitarian technology are often based on general-purpose single-board computers, such as Raspberry Pis. While these systems offer great flexibility for developers and users, configuration and deployment either introduces overhead by executing scripts on multiple devices or requires deeper technical understanding when building operating system images for such small computers from scratch.
+    In this paper, we present PIMOD, a software tool for configuring operating system images for single-board computer systems. We propose a simple yetcomprehensive configuration language. In a configuration profile, called Pifile, a small set of commands is used to describe the configuration of an operating system image. Virtualization techniques are used during the execution of the profile in order to be distribution and platform independent. Commands can be issued in the guest operating system, providing access to the distribution specific tools, e.g., to configure hardware parameters. The implementation of PIMOD is made public under a free and open source license. PIMOD is evaluated in terms of user benefits, performance compared to on-system configuration, and applicability across different hardware platforms and operating systems.",
+    PDF={../assets/papers/hoechst2020pimod.pdf},
+}
+
 @misc{baumgaertner2020mind,
     AUTHOR={Lars {Baumgärtner} and Alexandra Dmitrienko and Bernd Freisleben and Alexander Gruler and Jonas {Höchst} and Joshua {Kühlberg} and Mira Mezini and Markus Miettinen and Anel Muhamedagic and Thien Duc Nguyen and Alvar Penning and Dermot Frederik Pustelnik and Filipp Roos and Ahmad-Reza Sadeghi and Michael Schwarz and Christian Uhl},
     TITLE={Mind the GAP: Security & Privacy Risks of Contact Tracing Apps},
@@ -18,7 +33,7 @@
     BOOKTITLE={{17th International Conference on Information Systems for Crisis Response and Management (ISCRAM 2020)}},
     ADDRESS={Blacksburg, Virginia, USA},
     MONTH=may,
-    YEAR=2020,
+    YEAR={2020},
     KEYWORDS="LoRa, Disaster Communication, Device-To-Device Communication",
     ABSTRACT="In this paper, we present an approach to facilitate long-range device-to-device communication via smartphones in crisis scenarios. Through a custom firmware for low-cost LoRa capable micro-controller boards, called rf95modem, common devices for end users can be enabled to use LoRa through a Bluetooth, Wi-Fi, or serial connection. We present two applications utilizing the flexibility provided by the proposed firmware. First, we introduce a novel device-to-device LoRa chat application that works a) on the two major mobile platforms Android and iOS and b) on traditional computers like notebooks using a console-based interface. Second, we demonstrate how other infrastructure-less technology can benefit from our approach by integrating it into the DTN7 delay-tolerant networking software. The firmware, the device-to-device chat application, the integration into DTN7, as well as the experimental evaluation code fragments are available under permissive open-source licenses.",
     PDF={../assets/papers/hoechst2020lora.pdf},
@@ -37,6 +52,7 @@
     ABSTRACT="During and after the event of a crisis, means of communication are vital for civilians and professional responders alike. In particular, technologies such as disruption-tolerant networking (DTN) can play a key role to distribute data even under challenging network conditions. Such networks benefit from an increased number of mobile participants, since they help distribute messages to remote places. Unfortunately, it is unrealistic to assume that smartphone vendors will ship the necessary software or users will be prepared with the needed apps installed before the crisis happens. Currently, smartphone apps usually need Internet connections to be installed from an app store and/or are very platform specific, i.e., there is no general device-to-device app distribution. We present a novel solution to let any user with a web browser persistently participate in a DTN network. By leveraging a newly written Bundle Protocol 7 draft implementation in the programming language Rust and deploying to WebAssembly, we provide a secure and efficient way for backend and frontend DTN networks.
     The presented solution incorporates classic DTN daemons and access points for web app distribution and bundle synchronisation. Through benchmarks we show the efficient processing of bundles and the feasibility of bundle handling in browsers. All code is available as open-source under a permissive license.",
     PDF={../assets/papers/baumgaertner2019bdtn7.pdf},
+    doi = {10.1109/ICT-DM47966.2019.9032944},
 }
 
 @INPROCEEDINGS{luthra2019inetcep,
@@ -52,6 +68,7 @@
 In this paper, we propose an in-network CEP architecture, INetCEP that supports unified interaction patterns (consumer- and producer-initiated) over ICN. In addition, we provide a CEP query language and facilitate CEP operations while increasing the range of Internet-of-Things (IoT) applications that can be supported by ICN. We provide an open source implementation and evaluation of INetCEP over an ICN architecture, Named Function Networking and two IoT applications: energy forecasting in smart homes and a disaster scenario.",
     PDF={../assets/papers/luthra2019inetcep.pdf},
     URL={https://www.kom.tu-darmstadt.de/research-results/publications/publications-details/?pub_id=LKH\%2B19-1},
+    doi={10.1109/ANCS.2019.8901877},
 }
 
 @INPROCEEDINGS{penning2019dtn,
@@ -108,6 +125,7 @@ In this paper, we propose an in-network CEP architecture, INetCEP that supports 
     YEAR=2019,
     ABSTRACT="Currently, nearly four billion people live in urban areas. Since this trend is increasing, natural disasters or terrorist attacks in such areas affect an increasing number of people. While information and communication technology is crucial for the operation of urban infrastructures and the well-being of its inhabitants, current technology is quite vulnerable to disruptions of various kinds. In future smart cities, a more resilient urban infrastructure is imperative to handle the increasing number of hazardous situations. We present a novel resilient communication approach based on smart street lights as part of the public infrastructure. It supports people in their everyday life and adapts its functionality to the challenges of emergency situations. Our approach relies on various environmental sensors and in-situ processing for automatic situation assessment, and a range of communication mechanisms (e.g., public WiFi hotspot functionality and mesh networking) for maintaining a communication network. Furthermore, resilience is not only achieved based on infrastructure deployed by a digital city's municipality, but also based on integrating citizens through software that runs on their mobile devices (e.g., smartphones and tablets). Web-based zero-installation and platform-agnostic apps can switch to device-to-device communication to continue benefiting people even during a disaster situation. Our approach, featuring a covert channel for professional responders and the zero-installation app, is evaluated through a prototype implementation based on a commercially available street light.",
     pdf="../assets/papers/baumgaertner2019smart.pdf",
+    doi = {10.1109/GHTC46095.2019.9033134},
 }
 
 @inproceedings{graubner2018opportunistic, 
