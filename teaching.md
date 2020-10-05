@@ -23,6 +23,7 @@ While beeing a research fellow at University of Marburg I had the opportunity to
 - SoSe 2018: Seminar Drahtlose Netze
 - WiSe 2018/2019: IT-Security II
 - WiSe 2018/2019: Seminar Drahtlose Netze
+- SoSo 2020: Seminar Proximity Tracing
 
 ### Study Projects and Graduates
 
@@ -38,6 +39,8 @@ As a research assistant, I also supervised various Bachelor and Master projects 
 - **M.Sc. Ivo Müller**: *Static and dynamic Android app analysis for automated network usage detection and traffic classification*, July 2019
 - **Master Project**: *Konzeption und Implementierung einer Software zu Konfiguration von Sensorboxen*, August 2019
 - **M.Sc. Mohsen Yaghoobi**: *IoT Communication Protocol Fuzzing*, December 2019
-<!-- - B.Sc. Ronja Ademuyiwa: *Aufbau eines PV-Anlagen-spezifischen Honey-Pot-Systems zur Analyse der Gefährdungslage und Black-Box Analyse des bereitgestellten Systems* -->
+- **B.Sc. Ronja Ademuyiwa**: *Aufbau eines PV-Anlagen-spezifischen Honey-Pot-Systems zur Analyse der Gefährdungslage und Black-Box Analyse des bereitgestellten Systems*, April 2020
 <!-- - M.Sc. Macro Christmann: *Real-World Multipath-QUIC Evaluation mittels Android Userspace Applikation* -->
-<!-- - M.Sc. Markus Sommer: *CADR: Context-aware DTN Routing* -->
+- **M.Sc. Markus Sommer**: *CADR: Context-aware DTN Routing*, April 2020
+- **M.Sc. Neda Shahgholian Ghahfarokhi**: *Network Traffic Classification Using Semi-Supervised Learning*, August 2020
+<!-- - **Dipl.-Inf. Alp-Cihan Simsek*: Reverse Engineering the Amazon Echo for Environmental Monitoring -->
