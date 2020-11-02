@@ -2,25 +2,34 @@
 ---
 
 {{reference}}
-
+<div id="{{key}}-links">
 {% if entry.abstract %}
 <a href="javascript:toggle_visibility('{{key}}-abstract')">Abstract</a> &bull;
 {% endif %}
     
 <a href="javascript:toggle_visibility('{{key}}-bibtex')">BibTeX</a>
 
-{% if entry.pdf %}
-&bull; <a href="{{entry.pdf}}">PDF</a>
+{% if links.pdf %}
+&bull; <a href="{{links.pdf}}">PDF</a>
+{% endif %}
+
+{% if entry.meta_key %}
+{% if entry.meta_val %}
+&bull; <a href="{{entry.meta_val}}" target="_new">{{entry.meta_key}}</a>
+{% endif %}
 {% endif %}
 
 {% if entry.url %}
 &bull; <a href="{{entry.url}}" target="_new">URL</a>
 {% endif %}
-    
+</div>
+
+<div id="{{key}}-doi">
 {% if entry.doi %}
-&bull; DOI: <a href="https://dx.doi.org/{{entry.doi}}">{{entry.doi}}</a>
+DOI: <a href="https://dx.doi.org/{{entry.doi}}">{{entry.doi}}</a>
 {% endif %}
-    
+</div>
+
 <div id="{{key}}-bibtex" class="collapse">
     <pre>{{entry.bibtex}}</pre>
 </div>

@@ -94,14 +94,11 @@ show-author: true
 # do you want some animations?
 animation: true
 
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
   - jekyll/scholar
-
-jekyll-mentions:
-  base_url: https://github.com
 
 exclude:
   - Gemfile
@@ -113,18 +110,19 @@ exclude:
 # configuration from https://techblog.lankes.org/2015/04/06/From-Wordpress-to-Jekyll/
 scholar:
   style: assets/bibliography/ieee.csl
+  bibliography_template: bibtex
   locale: en
 
-  # group_by: year
-  # group_order: descending
-  # bibliography_group_tag: h3
+  #group_by: year
+  #group_order: descending
+  #bibliography_group_tag: h3
 
-  sort_by: year
+  sort_by: year,month
   order: descending
   bibliography_list_tag: ul
 
-  repository: pdf
-  bibliography_template: bibtex
+  # https://github.com/inukshuk/jekyll-scholar#file-repositories
+  repository: assets/papers
 
   reference_tagname: div
 
