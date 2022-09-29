@@ -1,23 +1,25 @@
 @inproceedings{lampe2022unobtrusive,
   author    = {Patrick Lampe and Markus Sommer and Artur Sterz and Jonas {H{\"o}chst} and Christian Uhl and Bernd Freisleben},
-  title     = {Unobtrusive Mechanism Interception: Teaching an Old Dog New Tricks},
-  booktitle = {2022 IEEE 47th Conference on Local Computer Networks (LCN 2022) \emph{(accepted for publication)}},
+  title     = {Unobtrusive Mechanism Interception},
+  booktitle = {2022 IEEE 47th Conference on Local Computer Networks (LCN 2022)},
   address   = {Edmonton, Canada},
   days      = {26},
   month     = sep,
   year      = 2022,
-  abstract  = {Networked systems and applications are often based on proprietary hardware/software components that manufacturers might not be willing to adapt or update if new requirements arise. We present mechanism interception, a novel approach to unobtrusively add or modify functionality to/of an existing networked system or application without touching any proprietary components. Behavioral changes are achieved by functionality-enhancing yet unobtrusive interceptors, e.g., an updated software library, a newly deployed edge device, or an enhanced cloud service. We illustrate our approach by two case studies that show its real-world applicability: (a) we unobtrusively replace a cloud infrastructure by an edge infrastructure in a wireless sensor network, and (b) we unobtrusively add a vertical handover mechanism between Wi-Fi and LTE to a mobile end device without disconnecting TCP sessions. Our results indicate that mechanism interception is a compelling approach to achieve improved service quality and provide previously unavailable functionality in an unobtrusive manner.}
+  doi       = {10.1109/LCN53696.2022.9843536},
+  abstract  = {Networked systems and applications are often based on proprietary hardware/software components that manufacturers might not be willing to adapt or update if new requirements arise. We present mechanism interception, a novel approach to unobtrusively add or modify functionality to/of an existing networked system or application without touching any proprietary components. Behavioral changes are achieved by functionality-enhancing yet unobtrusive interceptors, i.e., components introduced between systems and their environments adding or updating mechanisms. We illustrate our approach by unobtrusively adding a vertical handover mechanism between Wi-Fi and LTE to a mobile end device without disconnecting TCP sessions. Our results indicate that mechanism interception is a compelling approach to achieve improved service quality and provide previously unavailable functionality.}
 }
 
 @inproceedings{lampe2022forestedge,
   author    = {Patrick Lampe and Markus Sommer and Artur Sterz and Jonas {H{\"o}chst} and Christian Uhl and Bernd Freisleben},
   title     = {{ForestEdge:} Unobtrusive Mechanism Interception in Environmental Monitoring},
-  booktitle = {2022 IEEE 47th Conference on Local Computer Networks (LCN 2022) \emph{(accepted for publication)}},
+  booktitle = {2022 IEEE 47th Conference on Local Computer Networks (LCN 2022)},
   address   = {Edmonton, Canada},
   days      = {26},
   month     = sep,
   year      = 2022,
-  abstract  = {A network for environmental monitoring network typically requires a large number of sensors. If a longer service lifetime is intended, it is essential that the sensor systems can upgraded without necessarily modifying the used hardware. Often, sensor network implementations rely on proprietary hardware/- software components that are tailored to the desired functionality, but could technically also be used for other applications. We present a demo of mechanism interception, a novel approach to unobtrusively add or modify the functionality of an existing networked system, in our case a TreeTalker, without touching any proprietary components. We demonstrate how a cloud infrastructure can be unobtrusively replaced by an edge infrastructure in a wireless sensor network. Our results indicate that mechanism interception is a compelling approach for our scenario to provide previously unavailable functionality without modifying existing components.}
+  doi       = {10.1109/LCN53696.2022.9843426},
+  abstract  = {A network for environmental monitoring typically requires a large number of sensors. If a longer service life is intended, it is essential that the deployed sensor systems can be upgraded without modifying hardware. Often, these networks rely on proprietary hardware/software components tailored to the desired functionality, but these could technically also be used for other applications. We present a demo of mechanism interception, a novel approach to unobtrusively add or modify the functionality of an existing networked system, in our case a TreeTalker, without touching any proprietary components. We demonstrate how a cloud infrastructure can be unobtrusively replaced by an edge infrastructure in a wireless sensor network. Our results indicate that mechanism interception is a compelling approach for our scenario to provide previously unavailable functionality without modifying existing components.}
 }
 
 @inproceedings{hoechst2022birdedge,
@@ -29,6 +31,7 @@
   organization = {Springer},
   keywords     = {Bird Species Recognition, Edge Computing, Passive Acoustic Monitoring, Biodiversity},
   abstract     = {We present Bird@Edge, an Edge AI system for recognizing bird species in audio recordings to support real-time biodiversity monitoring. Bird@Edge is based on embedded edge devices operating in a distributed system to enable efficient, continuous evaluation of soundscapes recorded in forests. Multiple ESP32-based microphones (called Bird@Edge Mics) stream audio to a local Bird@Edge Station, on which bird species recognition is performed. The results of several Bird@Edge Stations are transmitted to a backend cloud for further analysis, e.g., by biodiversity researchers. To recognize bird species in soundscapes, a deep neural network based on the EﬀicientNet-B3 architecture is trained and optimized for execution on embedded edge devices and deployed on a NVIDIA Jetson Nano board using the DeepStream SDK. Our experiments show that our deep neural network outperforms the state-of-the-art BirdNET neural network on several data sets and achieves a recognition quality of up to 95.2% mean average precision on soundscape recordings in the Marburg Open Forest, a research and teaching forest of the University of Marburg, Germany. Measurements of the power consumption of the Bird@Edge components highlight the real-world applicability of the approach. All software and firmware components of Bird@Edge are available under open source licenses.},
+  doi          = {10.1007/978-3-031-17436-0_6},
   meta_key     = {Talk Recording},
   meta_val     = {https://www.youtube.com/watch?v=reAm4HSyQl8}
 }
@@ -41,6 +44,7 @@
   month        = {may},
   organization = {Springer},
   abstract     = {Existing routing algorithms for disruption-tolerant networking (DTN) have two main limitations: (a) a particular DTN routing algorithm is typically designed to achieve very good performance in a specific scenario, but has limited performance in other scenarios, and (b) DTN routing algorithms do not take advantage of network programmability to profit from its benefits. We present ProgDTN, a novel approach to support programmable disruption-tolerant networking by allowing network operators to implement and adapt routing algorithms without knowledge of a router's interior workings using the popular JavaScript language. To consider the specific properties of a particular application scenario, network operators can incorporate context information of DTN bundles and nodes in their routing algorithms. ProgDTN is based on DTN7, a flexible and eﬀicient open-source, platform-independent implementation of the Bundle Protocol version 7. Our experimental evaluation demonstrates that using ProgDTN to tailor a routing algorithm to a particular scenario achieves excellent results of up to 99.9% delivery ratio while reducing unnecessary transmissions by 92.9%. ProgDTN's implementation, our tailored scenario-specific routing algorithm, and code/data fragments for our experiments are released under permissive open-source licenses},
+  doi          = {10.1007/978-3-031-17436-0_13},
   meta_key     = {Talk Recording},
   meta_val     = {https://www.youtube.com/watch?v=u9lgwYoCZEE}
 }
