@@ -22,13 +22,16 @@ I did my Abitur at [Landgraf-Ludwigs-Gymnasium](http://www.llg-giessen.de) in Gi
 
 [![Logo of Philips-University](https://upload.wikimedia.org/wikipedia/commons/9/9c/Uni_Marburg_Logo.svg)](https://commons.wikimedia.org/wiki/File:Uni_Marburg_Logo.svg)
 
-Even though it's only a stones throw away from my home town [Rabenau](http://www.rabenau.de) I moved into a shared flat in Marburg with seven others, an experience I wouldn't want to miss.
+<!-- Even though it's only a stones throw away from my home town [Rabenau](http://www.rabenau.de) I moved into a shared flat in Marburg with seven others, an experience I wouldn't want to miss. -->
 
-The University courses deepened my understandings and once again widened my knowledge base. Especially the freely choosable subjects disclosed new fields like **IT Security** and **Distributed Systems** to me. Finally my bachelors thesis was a study of email transport security, which we later published at [IEEE TrustCom](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7345294): *How to Misuse SMTP over TLS: A Study of the (In)Security of Email Server Communication*.
+University courses deepened my understandings and once again widened my knowledge base especially in fields like **IT Security** and **Distributed Systems** to me. 
+<!-- Finally my bachelors thesis was a study of email transport security, which we later published at [IEEE TrustCom](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7345294): *How to Misuse SMTP over TLS: A Study of the (In)Security of Email Server Communication*. -->
+I set a focus to computer networks and worked in the [LOEWE NICER Project](http://www.proloewe.de/en/nicer) further investigation **emergency** and **delay-tolerant communication**. 
+<!-- In my master's thesis I worked on network traffic classification using machine learning approaches. -->
+I am a computer scientist by passion, and have worked in the [SFB 1053 - MAKI](http://www.maki.tu-darmstadt.de/sfb_maki/ueber_maki/index.de.jsp) at TU Darmstadt and [Nature 4.0 - Sensing Biodiversity](https://www.uni-marburg.de/en/fb19/natur40) University of Marburg, being involved into thrilling **research** projects!
+I graduated in October 2022 as Dr. rer. nat. with my thesis on *Smart Distributed Sensing in Adaptive Wireless Networks*.
 
-In the second epoch of studying I set a focus to computer networks and worked in the [LOEWE NICER Project](http://www.proloewe.de/en/nicer) further investigation **emergency** and **delay-tolerant communication**. In my master's thesis I worked on network traffic classification using machine learning approaches.
-
-I am a computer scientist by passion, and currently working in the [SFB 1053 - MAKI](http://www.maki.tu-darmstadt.de/sfb_maki/ueber_maki/index.de.jsp) at TU Darmstadt and [Nature 4.0 - Sensing Biodiversity](https://www.uni-marburg.de/en/fb19/natur40) University of Marburg, being involved into thrilling **research** projects!
+Right now, I am working with two of my colleagues to found [tRackIT Systems](https://trackit.systems), our company dedicated to the automated tracking of wildlife for ecological studies.
 
 ## Scouting for <s>boys</s> *me*
 
