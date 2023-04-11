@@ -11,8 +11,8 @@ My name is Jonas Höchst, born in the year of 1992 I am either enjoying the merc
 ``` c
 #include <stdio.h>
 int main() {
-	printf("Hallo Welt!\n");
-	return 0;
+    printf("Hallo Welt!\n");
+    return 0;
 }
 ```
 
