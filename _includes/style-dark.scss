@@ -8,7 +8,9 @@
     --unimr-logo-color: #ededed;
 }
 
-.about {
+// Only apply dark theme logo styles when dark-theme class is present
+// This allows manual theme switching to override these styles
+html.dark-theme .about {
     .trackit-logo {
         .trackit-logo-light {
             display: none;
@@ -26,6 +28,31 @@
 
         .vcp-logo-dark {
             display: block;
+        }
+    }
+}
+
+// Also apply for system preference (when no manual override)
+@media (prefers-color-scheme: dark) {
+    html:not(.light-theme):not(.dark-theme) .about {
+        .trackit-logo {
+            .trackit-logo-light {
+                display: none;
+            }
+
+            .trackit-logo-dark {
+                display: block;
+            }
+        }
+
+        .vcp-logo {
+            .vcp-logo-light {
+                display: none;
+            }
+
+            .vcp-logo-dark {
+                display: block;
+            }
         }
     }
 }

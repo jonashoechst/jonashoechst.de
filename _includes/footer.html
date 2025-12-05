@@ -4,6 +4,11 @@
         {{ site.name }} © {{ site.time | date: '%Y' }} &bullet;
         <!-- <a class="link" href="{{ site.url }}/feed.xml" target="_blank">Feed</a> &bullet; -->
         <a class="link" href="{{ "/impressum/" | absolute_url }}">Impressum</a> &bullet; 
-        <a class="link" href="https://github.com/sergiokopplin/indigo">Indigo theme</a> 
+        <a class="link" href="https://github.com/sergiokopplin/indigo">Indigo theme</a>
+        &bullet;
+        <button class="link theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle dark/light theme">
+            <i class="fa-regular fa-moon theme-icon-dark"></i>
+            <i class="fa-regular fa-sun theme-icon-light"></i>
+        </button>
     </p>
 </footer>

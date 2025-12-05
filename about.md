@@ -35,7 +35,10 @@ I set a focus to computer networks and worked in the [LOEWE NICER Project](http:
 I am a computer scientist by passion, and have worked in the [SFB 1053 - MAKI](http://www.maki.tu-darmstadt.de/sfb_maki/ueber_maki/index.de.jsp) at TU Darmstadt and [Nature 4.0 - Sensing Biodiversity](https://www.uni-marburg.de/en/fb19/natur40) University of Marburg, being involved into thrilling **research** projects!
 I graduated in October 2022 as Dr. rer. nat. with my thesis on *Smart Distributed Sensing in Adaptive Wireless Networks*.
 
-In 2023, together with Jannis Gottwald and Patrick Lampe, I co-founded [trackIT Systems](https://trackit.systems), a company dedicated to automated tracking of wildlife for ecological studies. As the **Chief Technology Officer**, I develop the cloud-based backend systems and the system software running on edge devices that enable autonomous wildlife tracking. I also develop and evaluate new methods scientifically, contribute to the company's growth, and enjoy the interesting challenges at the intersection of technology, ecology, and conservation.
+In 2023, together with Jannis Gottwald and Patrick Lampe, I co-founded [trackIT Systems](https://trackit.systems), a company dedicated to automated tracking of wildlife for ecological studies. 
+As the **Chief Technology Officer**, I develop the cloud-based backend systems and the system software running on edge devices that enable autonomous wildlife tracking and develop and evaluate new methods scientifically. 
+<!-- As one of the three managing directors, I focus on growing the team and ensuring solid financial numbers. -->
+Last but not least, I really enjoy the interesting challenges at the intersection of technology, ecology, and conservation!
 
 <a href="https://trackit.systems" title="Logo of trackIT Systems" class="trackit-logo">
     <img src="{{ "/assets/images/trackit-systems-black.svg" | absolute_url }}" alt="trackIT Systems Logo" class="trackit-logo-light" />

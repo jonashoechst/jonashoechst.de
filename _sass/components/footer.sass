@@ -50,3 +50,49 @@
 
             &:hover
                 border-color: $gama
+
+        // Theme toggle button styles
+        > .theme-toggle
+            background: none
+            border: none
+            cursor: pointer
+            color: $beta
+            text-decoration: none
+            border-bottom: 1px solid transparent
+            transition: ease-in-out all .3s
+            padding-bottom: 1px
+            margin: 0
+            display: inline-block
+            vertical-align: baseline
+            font-size: inherit
+            line-height: inherit
+            
+            .theme-icon-light,
+            .theme-icon-dark
+                display: inline-block
+                font-size: 0.9em
+                vertical-align: baseline
+                margin: 0 2px
+            
+            .theme-icon-light
+                display: none
+            
+            .theme-icon-dark
+                display: inline
+            
+            &:hover
+                border-color: $gama
+                opacity: 0.8
+            
+            &:focus
+                outline: 2px solid $alpha
+                outline-offset: 2px
+                border-radius: 2px
+
+// When dark theme is active, show sun icon (to switch to light)
+html.dark-theme .footer-main .extra > .theme-toggle
+    .theme-icon-light
+        display: inline
+    
+    .theme-icon-dark
+        display: none

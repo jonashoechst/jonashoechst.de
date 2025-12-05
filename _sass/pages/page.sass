@@ -33,15 +33,36 @@
             max-width: 100%
             height: auto
 
+        // Default: show light logo, hide dark logo
         .trackit-logo-dark
             display: none
 
+        .trackit-logo-light
+            display: block
+
+        // Dark theme: show dark logo, hide light logo
         @media (prefers-color-scheme: dark)
             .trackit-logo-light
                 display: none
 
             .trackit-logo-dark
                 display: block
+
+        // When dark-theme class is present, show dark logo
+        html.dark-theme &
+            .trackit-logo-light
+                display: none
+
+            .trackit-logo-dark
+                display: block
+
+        // When light-theme class is present, show light logo
+        html.light-theme &
+            .trackit-logo-light
+                display: block
+
+            .trackit-logo-dark
+                display: none
 
     .vcp-logo
         display: block
@@ -55,12 +76,33 @@
             width: 90%
             height: auto
 
+        // Default: show light logo, hide dark logo
         .vcp-logo-dark
             display: none
 
+        .vcp-logo-light
+            display: block
+
+        // Dark theme: show dark logo, hide light logo
         @media (prefers-color-scheme: dark)
             .vcp-logo-light
                 display: none
 
             .vcp-logo-dark
                 display: block
+
+        // When dark-theme class is present, show dark logo
+        html.dark-theme &
+            .vcp-logo-light
+                display: none
+
+            .vcp-logo-dark
+                display: block
+
+        // When light-theme class is present, show light logo
+        html.light-theme &
+            .vcp-logo-light
+                display: block
+
+            .vcp-logo-dark
+                display: none
