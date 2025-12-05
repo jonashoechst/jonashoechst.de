@@ -40,7 +40,7 @@ li {
     padding: 3pt;
 }
 </style>
-![Profile Image]({{ site.url }}/assets/images/academia.svg)
+![Profile Image]({{ "/assets/images/academia.svg" | absolute_url }})
 
 ## Publications
 

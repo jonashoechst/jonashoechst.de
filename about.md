@@ -2,7 +2,7 @@
 title: About
 layout: page
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+![Profile Image]({{ site.picture | absolute_url }})
 
 ## printf("Hallo Welt!\n");
 
@@ -35,12 +35,20 @@ I set a focus to computer networks and worked in the [LOEWE NICER Project](http:
 I am a computer scientist by passion, and have worked in the [SFB 1053 - MAKI](http://www.maki.tu-darmstadt.de/sfb_maki/ueber_maki/index.de.jsp) at TU Darmstadt and [Nature 4.0 - Sensing Biodiversity](https://www.uni-marburg.de/en/fb19/natur40) University of Marburg, being involved into thrilling **research** projects!
 I graduated in October 2022 as Dr. rer. nat. with my thesis on *Smart Distributed Sensing in Adaptive Wireless Networks*.
 
-Right now, I am working with two of my colleagues to found [tRackIT Systems](https://trackit.systems), our company dedicated to the automated tracking of wildlife for ecological studies.
+In 2023, together with Jannis Gottwald and Patrick Lampe, I co-founded [trackIT Systems](https://trackit.systems), a company dedicated to automated tracking of wildlife for ecological studies. As the **Chief Technology Officer**, I develop the cloud-based backend systems and the system software running on edge devices that enable autonomous wildlife tracking. I also develop and evaluate new methods scientifically, contribute to the company's growth, and enjoy the interesting challenges at the intersection of technology, ecology, and conservation.
+
+<a href="https://trackit.systems" title="Logo of trackIT Systems" class="trackit-logo">
+    <img src="{{ "/assets/images/trackit-systems-black.svg" | absolute_url }}" alt="trackIT Systems Logo" class="trackit-logo-light" />
+    <img src="{{ "/assets/images/trackit-systems-white.svg" | absolute_url }}" alt="trackIT Systems Logo" class="trackit-logo-dark" />
+</a>
 
 ## Scouting for <s>boys</s> *me*
 
 I am a boy scout since I was **eight** years old. Scouting is an *elementally part of my personality* and helped me in various situations. At the age of fifteen our local group almost collapsed. Other scouts helped, I became a group leader with sixteen and we managed to rebuilt it almost from scratch. 
 
-[![Sign of Verband Christlicher Pfadfinderinnen und Pfadfinder](https://upload.wikimedia.org/wikipedia/commons/8/87/Verband_Christlicher_Pfadfinderinnen_und_Pfadfinder_%28VCP%29_Logo_%28Lilie%29.svg)](https://commons.wikimedia.org/wiki/File:Verband_Christlicher_Pfadfinderinnen_und_Pfadfinder_(VCP)_Logo_(Lilie).svg)
+<a href="https://www.vcp.de" title="Logo of Verband Christlicher Pfadfinder*innen" class="vcp-logo">
+    <img src="{{ "/assets/images/VCP-WBM_Schwarz_RGB.svg" | absolute_url }}" alt="VCP Logo" class="vcp-logo-light" />
+    <img src="{{ "/assets/images/VCP-WBM_Weiss_RGB.svg" | absolute_url }}" alt="VCP Logo" class="vcp-logo-dark" />
+</a>
 
 At nineteen I became ***Stammesführer***, who is in charge of organizing all parts of the local group. After that I became ***Regionssprecher*** who connects those and moderates processes between the local groups. Both jobs not only were fulfilling for my personal advancement but taught me a lot about managing things. Currently I am into different projects in my scouting organization, e.g., working on our new [Pfadiralala IV<sub>plus</sub>](https://github.com/vcp-kurhessen/Pfadiralala-IV) songbook and building up a [new local group in Kirchhain](https://vcp-kirchhain.de).

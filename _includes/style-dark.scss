@@ -8,6 +8,28 @@
     --unimr-logo-color: #ededed;
 }
 
+.about {
+    .trackit-logo {
+        .trackit-logo-light {
+            display: none;
+        }
+
+        .trackit-logo-dark {
+            display: block;
+        }
+    }
+
+    .vcp-logo {
+        .vcp-logo-light {
+            display: none;
+        }
+
+        .vcp-logo-dark {
+            display: block;
+        }
+    }
+}
+
 @import "pages/home-blog-projects";
 @import "pages/page";
 @import "pages/post";
