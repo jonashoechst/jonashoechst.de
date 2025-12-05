@@ -39,15 +39,15 @@ permalink: /:title/
 # categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: jonashoechst
-twitter: jonashoechst
+# facebook: jonashoechst
+# twitter: jonashoechst
 mastodon: mastodon.social/@hoechst
 # google: mygoogle
 instagram: jonashoechst
 # pinterest: mypinterest
 # linkedin: mylinkedin
 youtube: jonashoechst
-spotify: 1181157452
+# spotify: 1181157452
 github: jonashoechst
 lastfm: jonashoechst
 stackoverflow: 9788040/jonas
