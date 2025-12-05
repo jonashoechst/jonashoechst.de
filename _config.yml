@@ -1,5 +1,6 @@
 # main text of home
 name: Jonas Höchst
+title: Jonas Höchst
 bio: Computer scientist - Scout - Musician
 
 # twitter summary info
@@ -9,6 +10,10 @@ bio: Computer scientist - Scout - Musician
 # better with square images
 external-image: false
 picture: assets/images/jonas10.jpg
+
+# your site color theme, true for dark theme, 
+# false to light theme, auto to switch with system.
+dark-theme: auto
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -95,18 +100,39 @@ show-author: true
 # do you want some animations?
 animation: true
 
+# add default values to specific pages or layouts
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      layout: "post"
+    values:
+      # setting all post to not hidden by default,
+      # can be overridden in the front matter for a specific post
+      hidden: false
+
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
   - jekyll/scholar
+  - jemoji
+
+compress_html:
+  ignore:
+    envs:
+      - development
+      - stage
 
 exclude:
-  - Gemfile
-  - Rakefile
-  - travis.sh
-  - FAQ.md
-  - README.md
+  [
+    "README.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "FAQ.md",
+    "Rakefile",
+    "travis.sh",
+    "vendor",
+  ]
 
 # configuration from https://techblog.lankes.org/2015/04/06/From-Wordpress-to-Jekyll/
 scholar:

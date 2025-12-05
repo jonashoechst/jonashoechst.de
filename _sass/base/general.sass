@@ -1,3 +1,6 @@
+\:root
+    --unimr-logo-color: #222
+
 body, html
     font-size: 62.5%
 
@@ -5,6 +8,7 @@ body
     line-height: 1
     font: 16px $fontSans
     color: $alpha
+    background: $omega
 
 h1, h2, h3, h4
     font-family: $fontSans
@@ -37,13 +41,16 @@ p
     font-weight: 300
     margin-bottom: 20px
     letter-spacing: 0.4px
+    word-break: normal
+    overflow-wrap: break-word
+    hyphens: auto
 
     @media #{$mobile}
         letter-spacing: 0.2px
 
 strong
     font-weight: 400
-    color: #000
+    color: $beta
 
 ul,
 ol
@@ -97,7 +104,7 @@ tt
     font-family: $fontMonospace
     font-size: 12px
     line-height: 20px
-    background: #fff
+    background: $omega
     border-radius: 2px
     border-radius: 2px
 
@@ -110,7 +117,7 @@ pre
     font-size: 1.2rem
     line-height: 2rem
     overflow: auto
-    background: #fff
+    background: $omega
     border: 1px solid $epsilon
     border-radius: 2px
 

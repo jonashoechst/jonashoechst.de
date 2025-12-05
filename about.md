@@ -20,13 +20,17 @@ In [middle school](http://www.lumdatalschule.de) my first **Homepage** went onli
 
 I did my Abitur at [Landgraf-Ludwigs-Gymnasium](http://www.llg-giessen.de) in Gießen, set my focus to *mathematics and chemistry* but still had computer science in mind. Being a nineteen-year-old it is hard to decide on how to proceed in life. While luckily military duty was discontinued in Germany, I decided to go to [Philips-University of Marburg](http://www.uni-marburg.de) to study **computer science**. 
 
-[![Logo of Philips-University](https://upload.wikimedia.org/wikipedia/commons/9/9c/Uni_Marburg_Logo.svg)](https://commons.wikimedia.org/wiki/File:Uni_Marburg_Logo.svg)
+<a href="https://www.uni-marburg.de" title="Logo of Philips-University">
+    <svg class="unimr-logo" width="289" height="159" viewBox="0 0 289.133858 158.740157" aria-label="Logo of Philips-University of Marburg">
+        <use href="#logo-en"></use>
+    </svg>
+</a>
 
 <!-- Even though it's only a stones throw away from my home town [Rabenau](http://www.rabenau.de) I moved into a shared flat in Marburg with seven others, an experience I wouldn't want to miss. -->
 
 University courses deepened my understandings and once again widened my knowledge base especially in fields like **IT Security** and **Distributed Systems** to me. 
 <!-- Finally my bachelors thesis was a study of email transport security, which we later published at [IEEE TrustCom](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7345294): *How to Misuse SMTP over TLS: A Study of the (In)Security of Email Server Communication*. -->
-I set a focus to computer networks and worked in the [LOEWE NICER Project](http://www.proloewe.de/en/nicer) further investigation **emergency** and **delay-tolerant communication**. 
+I set a focus to computer networks and worked in the [LOEWE NICER Project](http://www.proloewe.de/en/nicer) further investigation **emergency** and **delay&#8209;tolerant communication**. 
 <!-- In my master's thesis I worked on network traffic classification using machine learning approaches. -->
 I am a computer scientist by passion, and have worked in the [SFB 1053 - MAKI](http://www.maki.tu-darmstadt.de/sfb_maki/ueber_maki/index.de.jsp) at TU Darmstadt and [Nature 4.0 - Sensing Biodiversity](https://www.uni-marburg.de/en/fb19/natur40) University of Marburg, being involved into thrilling **research** projects!
 I graduated in October 2022 as Dr. rer. nat. with my thesis on *Smart Distributed Sensing in Adaptive Wireless Networks*.
