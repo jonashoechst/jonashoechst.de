@@ -40,7 +40,14 @@ DOI: <a href="https://dx.doi.org/{{entry.doi}}" target="_new">{{entry.doi}}</a>
 </div>
 
 <div id="{{key}}-bibtex" class="collapse">
-    <pre>{{entry.bibtex}}</pre>
+    <div class="bibtex-container">
+        <button class="bibtex-copy-btn" onclick="copyBibtex('{{key}}', this)" title="Copy BibTeX to clipboard" aria-label="Copy BibTeX to clipboard">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.5 3.5V2C5.5 1.44772 5.94772 1 6.5 1H12C12.5523 1 13 1.44772 13 2V7.5C13 8.05228 12.5523 8.5 12 8.5H10.5M5.5 3.5H4C3.44772 3.5 3 3.94772 3 4.5V12C3 12.5523 3.44772 13 4 13H9.5C10.0523 13 10.5 12.5523 10.5 12V10.5M5.5 3.5H9.5C10.0523 3.5 10.5 3.94772 10.5 4.5V7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <pre id="{{key}}-bibtex-content">{{entry.bibtex}}</pre>
+    </div>
 </div>
 
 {% if entry.abstract %}

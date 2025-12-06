@@ -35,3 +35,54 @@
 .collapse pre
     color: $alpha
 
+// BibTeX container with copy button
+.bibtex-container
+    position: relative
+    overflow: visible
+
+.bibtex-copy-btn
+    position: absolute
+    bottom: 8px
+    right: 8px
+    background: $epsilon
+    border: 1px solid $beta
+    border-radius: 4px
+    padding: 6px 8px
+    cursor: pointer
+    color: $beta
+    transition: all 0.2s ease
+    display: flex
+    align-items: center
+    justify-content: center
+    z-index: 10
+    opacity: 0.7
+    margin: 0
+
+    &:hover
+        opacity: 1
+
+    &:active
+        transform: scale(0.95)
+
+    &.copied
+        opacity: 1
+
+    svg
+        display: block
+        width: 16px
+        height: 16px
+
+// Adjust pre padding to make room for button
+.bibtex-container pre
+    padding-right: 50px !important
+    padding-bottom: 5px !important
+    margin-bottom: 0 !important
+
+// Hidden elements
+.hidden
+    display: none
+
+// List item padding
+li
+    padding: 3pt
+
