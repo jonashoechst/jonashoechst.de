@@ -1,0 +1,37 @@
+.abstract
+    font-family: serif
+    font-size: normal
+    color: $alpha
+    line-height: normal
+    text-align: justify
+    padding: 10pt
+
+// Animation for collapsing/expanding abstract and bibtex sections
+.collapse
+    max-height: 0
+    overflow: hidden
+    opacity: 0
+    padding: 0 10pt
+    margin: 0
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out, padding-top 0s linear 0.3s, padding-bottom 0s linear 0.3s
+
+.collapse.show
+    max-height: 2000px
+    opacity: 1
+    padding: 10pt
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out, padding-top 0s, padding-bottom 0s
+
+// Remove margins/padding from child elements to prevent spacing issues
+.collapse > *,
+.collapse pre
+    margin: 0
+    padding-top: 0
+    padding-bottom: 0
+
+.collapse.show pre
+    padding: 5px 10px
+
+// Ensure pre elements use theme colors
+.collapse pre
+    color: $alpha
+
