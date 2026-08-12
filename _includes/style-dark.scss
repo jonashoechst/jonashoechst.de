@@ -1,77 +1,32 @@
-@import "base/variables-dark";
-@import "base/normalize";
-@import "base/syntax-dark";
-@import "base/general";
-@import "base/helpers";
+@use "base/variables" with (
+    $alpha: #aaa,
+    $beta: #ededed,
+    $gama: #999,
+    $delta: #9300ff,
+    $epsilon: #222,
+    $omega: #000,
+    $zeta: #fff,
+    $kappa: #1E2D24,
+    $thin-font: 400
+);
+@use "base/syntax-dark";
+@use "base/general";
+@use "base/dark-logos";
 
-:root {
-    --unimr-logo-color: #ededed;
-}
+@use "pages/home-blog-projects";
+@use "pages/page";
+@use "pages/post";
+@use "pages/tags";
 
-// Only apply dark theme logo styles when dark-theme class is present
-// This allows manual theme switching to override these styles
-html.dark-theme .about {
-    .trackit-logo {
-        .trackit-logo-light {
-            display: none;
-        }
-
-        .trackit-logo-dark {
-            display: block;
-        }
-    }
-
-    .vcp-logo {
-        .vcp-logo-light {
-            display: none;
-        }
-
-        .vcp-logo-dark {
-            display: block;
-        }
-    }
-}
-
-// Also apply for system preference (when no manual override)
-@media (prefers-color-scheme: dark) {
-    html:not(.light-theme):not(.dark-theme) .about {
-        .trackit-logo {
-            .trackit-logo-light {
-                display: none;
-            }
-
-            .trackit-logo-dark {
-                display: block;
-            }
-        }
-
-        .vcp-logo {
-            .vcp-logo-light {
-                display: none;
-            }
-
-            .vcp-logo-dark {
-                display: block;
-            }
-        }
-    }
-}
-
-@import "pages/home-blog-projects";
-@import "pages/page";
-@import "pages/post";
-@import "pages/tags";
-
-@import "components/author";
-@import "components/disqus";
-@import "components/footer";
-@import "components/header";
-@import "components/nav";
-@import "components/others";
-@import "components/publications";
-@import "components/related";
-@import "components/share";
-@import "components/side-by-side";
-@import "components/social-links";
-@import "components/spoiler";
-
+@use "components/author";
+@use "components/disqus";
+@use "components/footer";
+@use "components/header";
+@use "components/nav";
+@use "components/others";
+@use "components/publications";
+@use "components/related";
+@use "components/share";
+@use "components/side-by-side";
+@use "components/social-links";
+@use "components/spoiler";

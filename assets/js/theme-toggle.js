@@ -64,11 +64,11 @@
         // Show moon icon when light theme is active (to switch to dark)
         // CSS handles the display, but we ensure it's set correctly
         if (theme === 'dark') {
-            if (lightIcon) lightIcon.style.display = 'inline-block';
+            if (lightIcon) lightIcon.style.display = 'inline';
             if (darkIcon) darkIcon.style.display = 'none';
         } else {
             if (lightIcon) lightIcon.style.display = 'none';
-            if (darkIcon) darkIcon.style.display = 'inline-block';
+            if (darkIcon) darkIcon.style.display = 'inline';
         }
     }
 

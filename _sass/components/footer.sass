@@ -1,5 +1,6 @@
+@use "../base/variables" as *
+
 .footer-main
-    border-top: 1px solid $epsilon
     padding: 40px 0
     margin: 40px 0 0
     font-size: 1.3rem
@@ -60,19 +61,21 @@
             text-decoration: none
             border-bottom: 1px solid transparent
             transition: ease-in-out all .3s
-            padding-bottom: 1px
+            padding: 0 0 1px
             margin: 0
-            display: inline-block
+            display: inline
             vertical-align: baseline
             font-size: inherit
             line-height: inherit
+            font-family: inherit
+            font-weight: inherit
             
             .theme-icon-light,
             .theme-icon-dark
-                display: inline-block
+                display: inline
                 font-size: 0.9em
                 vertical-align: baseline
-                margin: 0 2px
+                margin: 0
             
             .theme-icon-light
                 display: none
